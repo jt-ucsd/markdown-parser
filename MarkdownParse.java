@@ -22,7 +22,7 @@ public class MarkdownParse {
                     continue;
                 }
             }
-            int closeBracket = markdown.indexOf("](", openBracket);
+            int closeBracket = markdown.indexOf("]", openBracket);
             if(closeBracket == -1) {
                 break;
             }
